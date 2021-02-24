@@ -1,0 +1,49 @@
+li {
+    display: block;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+
+   
+
+  }
+
+  h1 {
+
+text-align: center;
+color: orange;
+
+
+  }
+  .container {
+text-align: center;
+
+  }
+
+  .grid-cards {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+ 
+
+
+.results {
+
+    text-align: right;
+}
+
+.card {
+  max-width: 250px;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  display: inline-table;
+  }
+
+  
